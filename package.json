@@ -1,0 +1,24 @@
+{
+  "name": "ticketing_service",
+  "version": "1.0.0",
+  "description": "ticketing service for pax pay ( Morsa )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start"
+  },
+  "author": "Mohammad Tafakori",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^12.0.0",
+    "koa2-swagger-ui": "^5.8.0",
+    "mongoose": "^5.7.5",
+    "mongoose-auto-increment": "^5.0.1",
+    "nodemon": "^2.0.22",
+    "swagger-jsdoc": "^6.2.8"
+  }
+}
