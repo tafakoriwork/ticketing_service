@@ -6,10 +6,15 @@ const _SubjectSchema = new Mongoose.Schema(
         title: {
             type: String,
             required: true,
-            index: {
-                unique: true,
-            },
         },
+        user: {
+            type: String,
+            required: true,
+        },
+        admin: {
+            type: String,
+            default: null,
+        }
     }, 
     {timestamps: true}
 );
